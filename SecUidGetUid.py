@@ -140,7 +140,7 @@ if __name__ == '__main__':
 
     print("爬取时间段：",timepool)
 
-    for i in range(2):#range(len(data)):
+    for i in range(len(data)):#range(len(data)):
         sec_uid = data[i]
         chinesename = username[i]
 
